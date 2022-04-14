@@ -9,31 +9,31 @@ body {
   margin: auto;
   color: black;
   background-color: white;
-  padding: 13px;
+  padding: 0.8125;
 }
 h1 {
   background-color: #0308077e;
-  padding: 10px;
+  padding: 0.625rem;
   text-align: center;
-  font-size: 35px;
+  font-size: 2.188rem;
   color: white;
   margin-bottom: 0%;
 }
 h2 {
 
   background-color: #0308077e;
-  padding: 10px;
+  padding: 0.625rem;
   text-align: left;
-  font-size: 16px;
+  font-size: 1rem;
   color: white;
   margin-top: 0%;
 }
 h3{
   
   background-color: #0308077e;
-  padding: 10px;
+  padding: 0.625rem;
   text-align: center;
-  font-size: 16px;
+  font-size: 0.8rem;
   color: white;
   margin-top: 0%;
 }
@@ -44,9 +44,9 @@ h4{
 h5{
   
   background-color: #0308077e;
-  padding: 10px;
+  padding: 0.625rem;
   text-align: left;
-  font-size: 25px;
+  font-size: 0.1rem;
   color: white;
   margin-bottom: 0%;
 }
@@ -72,15 +72,15 @@ img {
   display: grid;
   grid-template-columns:auto auto ;
   grid-template-rows: auto ;
-  grid-gap: 6px;
- border: 1cm solid rgb(221, 215, 215);
+  grid-gap: 0.38em;
+ border: 2.3em solid rgb(221, 215, 215);
 }
 .education{
   display : grid;
   grid-template-columns:auto auto ;
   grid-template-rows: auto ;
-  grid-gap: 6px;
-  border: 1cm solid rgb(221, 215, 215);;
+  grid-gap: 0.38em;
+  border: 2.3em solid rgb(221, 215, 215);;
 }
 .bacherlor{
   display : grid;
@@ -102,19 +102,19 @@ table {
 }
 footer {
   font-size: 1.2em;
-  margin-top: 1px;
-  margin-bottom: 2.5rem;
+  margin-top: 0.065em;
+  margin-bottom: 2.5em;
   border: 1cm solid rgb(221, 215, 215);;
 }
 
 blockquote {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 0em;
+  margin-right: 0em;
   padding-left: 1em;
   padding-top: 0.8em;
   padding-bottom: 0.8em;
   padding-right: 0.8em;
-  border-left: 5px solid #1d7484;
+  border-left: 0.3em solid #1d7484;
   margin-bottom: 2.5rem;
   background-color: #f1f1f1;
 }
