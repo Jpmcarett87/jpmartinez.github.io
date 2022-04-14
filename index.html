@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Change this to your name-->
+    <meta name="author" content="Juan Pablo Martinez" />
+    <title>My biographic</title>
+    <!-- Classless CSS Stylesheet - https://oxal.org/projects/sakura/ -->
+    <link rel="stylesheet" href="./css/code.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <!-- Change this to your Store's info -->
+      <img src="./Image/1.jpg" />
+      <h1>Juan Pablo Martinez</h1>
+      <h3>Biomedical Engineer, currently a student of Seneca College in CPP program </h3>
+     <nav class="bt">
+       <a href="./Resume.pdf" download>Download</a>
+       <a href="./Portfolio.pdf" download>Portfolio</a>
+       <a href="#form">Contact</a>
+
+     </nav>
+    </header>
+   <div class="container">
+     <div>
+       <h2>Academic Honesty</h2> 
+       <p>I declare that my assessment is wholly my own work in accordance with Seneca Academic
+        Policy. No part of this assessment has been copied manually or electronically from any other
+        source (including web sites) except for the information supplied by the WEB222 instructors and /
+        or made available in this assessment for my use. I also declare that no part of this assignment
+        has been distributed to other students.
+      </p>
+      <h3><b>Date:</b> April,14 2022</h3>
+      </div>
+     <nav> 
+      <h2>Basic Information</h2> 
+       <table>
+         <th class="description">
+           <li>AGE</li>
+           <li>EMAIL:</li>
+           <li>LANGUAGE</li>
+           <li>CLASS SECTION</li>
+           <li>STUDENT ID</li>
+           <li>INSTRUCTOR </li>
+         </th>
+         <th class="value">
+          <li>34</li>
+          <li>jpmcarett@gmail.com</li>
+          <li>Spanish,English</li>
+          <li>NHH</li>
+          <li>112494216</li>
+          <li>Muath Alzghool </li>
+        </th>
+       </table>
+     </nav>
+   </div>
+   <div>
+     <h3>About me</h3>
+     <p>My name is Juan Pablo Martinez. I have a bachelor's degree in Biomedical engineering with almost six years of experience designing customs implants for medical applications(you can download my portfolio). The reason to change my background is a lot of the design parts in the design process have repeating steps, which means I could reduce the time of respond automatizing those processes using different languages (C++, Java or phyton), offering a better solution for the patient. 
+      On the other hand, the possible application of virtual reality and augmented reality in surgery could offer a better solution in the medical field, concluding in a better medical result for the patient.</p>
+   </div>
+   <nav class="education">
+   <div class="bachelor"> 
+     <h2>Bachelor Degree in Biomedical Engineer</h2>
+     <p>2009-2014</p>
+   </div>
+   <div class="references">
+   <h2>Bachelor Degree in Biomedical Engineer</h2>
+   <h4>This branch of engineering is mainly dedicated to the design and construction of tools and technologies such as medical equipment, prostheses, medical devices and diagnostic and therapeutic devices, in order to improve the quality of life of patients.</h4>
+  </div>
+   <div class="bachelor"> 
+    <h2>Computer Programming Diploma</h2>
+    <p>2021-2023 (Expected)</p>
+   </div>
+   <div class="references"> 
+    <h2>Bachelor Degree in Biomedical Engineer</h2>
+    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis consequatur perspiciatis quos, vitae pariatur illum dolor earum blanditiis cupiditate autem dolorem magni sequi aut nisi reiciendis eum quod, iste nesciunt.</h4>
+     </div>
+  </nav>
+  
+    <form id="form"  method="post" name="form"
+      action='https://httpbin.org/post' 
+      onsubmit= Validation();><br>
+    <h5>Contact information</h5>
+    <p>
+      Name  
+      <input id="name" name="e1" placeholder="Name" required> <br /> 
+      Email 
+      <input id="email"name="e2" placeholder="Email"  type="email" required /><br />
+      Phone 
+      <input id="phone" name="e3"  placeholder="Phone" type="tel" required /><br />
+      Address
+      <input id="Address" name="e4"  placeholder="Address" type="Address" /><br />
+     <label> Select a city</label><br>
+      <select name="what" id="what" size=3>
+        <option value="1" selected>Toronto </option>
+        <option value="2"> Edmonton </option>
+        <option value="3"> Victoria </option>
+        <option value="4"> Winnipeg   </option>
+        <option value="5"> Fredericton </option>
+        <option value="6"> Halifax </option>
+        <option value="7"> Quebec City  </option>
+        <option value="8"> Yellowknife </option>
+      </select><br />
+      Postal Code<input type="postal"name="e5" required/><br />
+     </p>
+      <th>Options</th><br>   
+        <th><input type="radio" name="opt"  id="opt1" value="Question" selected> Question</th> <br />     
+        <th><input type="radio" name="opt" id="opt2" value="Comment"> Comment</th> <br />     
+        <th><input type="radio" name="opt" id="opt3" value="Hiring"> Hiring</th> <br />
+
+      <p>Your Comments</p> 
+	  <textarea name="comments" cols=60 rows="8"></textarea>
+	  <p>
+      <p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+    <p>
+    </form>
+    <footer class="foot">
+  </footer>
+    <!-- Main App JavaScript File -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
